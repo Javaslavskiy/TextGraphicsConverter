@@ -8,7 +8,7 @@ public interface TextGraphicsConverter {
      * Конвертация изображения, переданного как урл, в текстовую графику.
      * @param url урл изображения
      * @return текст, представляющий собой текстовую графику переданного изображения
-     * @throws IOException
+     * @throws IOException м
      * @throws BadImageSizeException Если соотношение сторон изображения слишком большое
      */
     String convert(String url) throws IOException, BadImageSizeException;
